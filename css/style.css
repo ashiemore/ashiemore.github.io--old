@@ -13,7 +13,7 @@ h1 {
 
 #smogon {
 	display: inline-block;
-	background: url('images/zracknel-beta.png') no-repeat center center #6363B0;
+	background: #6363B0 url('images/zracknel-beta.png');
 	background-size:70%;
 	border: 2px solid #323299;
 	height: 150px;
