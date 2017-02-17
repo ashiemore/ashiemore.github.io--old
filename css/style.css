@@ -26,7 +26,26 @@ h6:hover {
 }
 
 #smogon {
+	display: inline-block;
 	background: #6363B0 url('images/zracknel-beta.png') no-repeat center center;
+	background-size: 70%;
+}
+
+#tumblr {
+	display: inline-block;
+	background: #36465D url('images/tumblr-icon.png') no-repeat center center;
+	background-size: 70%;
+}
+
+#skype {
+	display: inline-block;
+	background: #FFFFFF url('images/skype-icon.png') no-repeat center center;
+	background-size: 70%;
+}
+
+#discord {
+	display: inline-block;
+	background: #7289DA url('images/discord-icon2.png') no-repeat center center;
 	background-size: 70%;
 }
 
