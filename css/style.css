@@ -27,7 +27,7 @@ h4:hover {
 
 #smogon {
 	background-color: #6363B0;
-	background-image: 'images/zracknel-beta.png';
+	background-image: url("images/zracknel-beta.png");
 }
 
 p {
