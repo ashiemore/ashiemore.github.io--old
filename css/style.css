@@ -12,14 +12,20 @@ h1 {
 }
 
 h3 {
+	color: #8484C1;
 	display: inline-block;
 	border: 2px solid #323299;
 	height: 200px;
 	width: 200px;
 	line-height: 200px;
 	margin: 10px;
+	border-radius: 100%;
 }
 
+h3:hover {
+	color: white;
+	background-color: #323299;	
+}
 p {
 	
 }
