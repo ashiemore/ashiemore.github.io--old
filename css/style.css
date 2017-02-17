@@ -11,8 +11,26 @@ h1 {
 	color: purple;
 }
 
-h6 {
+#smogon {
 	display: inline-block;
+	background: #6363B0 url('images/zracknel-beta.png') no-repeat center center;
+	background-size: 70%;
+	border: 2px solid #323299;
+	height: 150px;
+	width: 150px;
+	line-height: 150px;
+	margin: 10px;
+	border-radius: 100%;	
+}
+
+#smogon:hover {
+	color: white;
+}
+
+#tumblr {
+	display: inline-block;
+	background: #36465D url('images/tumblr-icon.png') no-repeat center center;
+	background-size: 70%;
 	border: 2px solid #323299;
 	height: 150px;
 	width: 150px;
@@ -21,32 +39,40 @@ h6 {
 	border-radius: 100%;
 }
 
-h6:hover {
-	color: white;	
-}
-
-#smogon {
-	display: inline-block;
-	background: #6363B0 url('images/zracknel-beta.png') no-repeat center center;
-	background-size: 70%;
-}
-
-#tumblr {
-	display: inline-block;
-	background: #36465D url('images/tumblr-icon.png') no-repeat center center;
-	background-size: 70%;
+#tumblr:hover {
+	color: white;
 }
 
 #skype {
 	display: inline-block;
 	background: #FFFFFF url('images/skype-icon.png') no-repeat center center;
 	background-size: 70%;
+	border: 2px solid #323299;
+	height: 150px;
+	width: 150px;
+	line-height: 150px;
+	margin: 10px;
+	border-radius: 100%;
+}
+
+#skype:hover {
+	color: white;
 }
 
 #discord {
 	display: inline-block;
 	background: #7289DA url('images/discord-icon2.png') no-repeat center center;
 	background-size: 70%;
+	border: 2px solid #323299;
+	height: 150px;
+	width: 150px;
+	line-height: 150px;
+	margin: 10px;
+	border-radius: 100%;
+}
+
+#discord:hover {
+	color: white;
 }
 
 p {
