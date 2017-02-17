@@ -11,20 +11,18 @@ h1 {
 	color: purple;
 }
 
-h3 {
-	color: #8484C1;
+h4 {
 	display: inline-block;
 	border: 2px solid #323299;
-	height: 200px;
-	width: 200px;
-	line-height: 200px;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
 	margin: 10px;
 	border-radius: 100%;
 }
 
-h3:hover {
-	color: white;
-	background-color: #323299;	
+h4:hover {
+	color: white;	
 }
 p {
 	
