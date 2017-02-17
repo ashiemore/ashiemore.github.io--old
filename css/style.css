@@ -1,5 +1,6 @@
 html {
 	background-color: #ADD8E6;
+	text-align: center;
 }
 
 body {
@@ -8,14 +9,12 @@ body {
 
 h1 {
 	color: purple;
-	text-align: center;
 }
 
 h3 {
-	text-align: center;
 	display: inline-block;
 }
 
 p {
-	text-align: center;
+	
 }
