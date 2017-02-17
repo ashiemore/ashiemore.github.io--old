@@ -24,6 +24,12 @@ h6 {
 h4:hover {
 	color: white;	
 }
+
+#smogon {
+	background-color: #6363B0;
+	background-image: 'images/smogon.png';
+}
+
 p {
 	
 }
