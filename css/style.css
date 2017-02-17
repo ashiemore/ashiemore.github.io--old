@@ -21,14 +21,13 @@ h6 {
 	border-radius: 100%;
 }
 
-h4:hover {
+h6:hover {
 	color: white;	
 }
 
 #smogon {
-	background-color: #6363B0;
-	background-image: url("images/zracknel-beta.png");
-	background-size: cover;
+	background: #6363B0 url('images/zracknel-beta.png') no-repeat center center;
+	background-size: 70%;
 }
 
 p {
