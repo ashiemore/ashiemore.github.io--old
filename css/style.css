@@ -22,11 +22,20 @@ h6 {
 }
 
 h6:hover {
-	color: white;	
+	color: blue;
 }
 
 #nolink:hover {
 	color: inherit;
+}
+
+#link {
+	color: blue;
+}
+
+#link:hover {
+	color: blue;
+	opacity: 50%;
 }
 
 p {
