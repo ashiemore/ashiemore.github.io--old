@@ -11,27 +11,8 @@ h1 {
 	color: purple;
 }
 
-#smogon {
+h6 {
 	display: inline-block;
-	background-color: #6363B0;
-	background-image: url('images/zracknel-beta.png');
-	background-size: 70%;
-	border: 2px solid #323299;
-	height: 150px;
-	width: 150px;
-	line-height: 150px;
-	margin: 10px;
-	border-radius: 100%;	
-}
-
-#smogon:hover {
-	color: white;
-}
-
-#tumblr {
-	display: inline-block;
-	background: #36465D url('images/tumblr-icon.png') no-repeat center center;
-	background-size: 70%;
 	border: 2px solid #323299;
 	height: 150px;
 	width: 150px;
@@ -40,40 +21,8 @@ h1 {
 	border-radius: 100%;
 }
 
-#tumblr:hover {
-	color: white;
-}
-
-#skype {
-	display: inline-block;
-	background: #FFFFFF url('images/skype-icon.png') no-repeat center center;
-	background-size: 70%;
-	border: 2px solid #323299;
-	height: 150px;
-	width: 150px;
-	line-height: 150px;
-	margin: 10px;
-	border-radius: 100%;
-}
-
-#skype:hover {
-	color: white;
-}
-
-#discord {
-	display: inline-block;
-	background: #7289DA url('images/discord-icon2.png') no-repeat center center;
-	background-size: 70%;
-	border: 2px solid #323299;
-	height: 150px;
-	width: 150px;
-	line-height: 150px;
-	margin: 10px;
-	border-radius: 100%;
-}
-
-#discord:hover {
-	color: white;
+h6:hover {
+	color: white;	
 }
 
 p {
