@@ -1,5 +1,5 @@
 html {
-	background: url("/images/wave-background.png") no-repeat fixed center;
+	background-image: url("images/wave-background.png");
 	text-align: center;
 }
 
