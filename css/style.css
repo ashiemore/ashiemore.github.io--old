@@ -23,10 +23,12 @@ h6 {
 
 #smogon {
 	background-color: #6363B0;
+	-webkit-transition: background 0.5s, color 0.5s;
 }
 
 #tumblr {
 	background-color: #36465D;
+	-webkit-transition: background 0.5s, color 0.5s;
 }
 
 #smogon, #tumblr {
