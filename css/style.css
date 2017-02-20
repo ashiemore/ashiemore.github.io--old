@@ -46,6 +46,14 @@ h6 {
 	color: #ADD8E6;
 }
 
+#smogon:hover {
+	background-color: #7272B7;
+}
+
+#tumblr:hover {
+	background-color: #4A586D;
+}
+
 #skype:hover, #discord:hover {
 	color: inherit;
 }
