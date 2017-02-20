@@ -14,7 +14,7 @@ h1 {
 
 h6 {
 	display: inline-block;
-	border: 2px solid #323299;
+	border: 2px solid #75FFFF;
 	height: 150px;
 	width: 150px;
 	line-height: 150px;
@@ -62,5 +62,5 @@ h6 {
 }
 
 p {
-	
+	color: #FF75CE;	
 }
