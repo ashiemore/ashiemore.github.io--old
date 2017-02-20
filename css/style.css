@@ -1,9 +1,9 @@
 html {
-	background-image: url("images/wave-background.png");
 	text-align: center;
 }
 
 body {
+	background-image: url("images/wave-background.png");
 	font-family: Lato, sans-serif;
 }
 
