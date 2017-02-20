@@ -21,16 +21,30 @@ h6 {
 	border-radius: 100%;
 }
 
-#nolink:hover {
-	color: inherit;
-}
-
-#link {
+#smogon {
 	color: blue;
+	background-color: #6363B0;
 }
 
-#link:hover {
-	color: #ADD8E6;
+#tumblr {
+	color: blue;
+	background-color: #36465D;
+}
+
+#skype { 
+	background-color: #00B0F4;
+}
+
+#discord {
+	background-color: #7289DA;
+}
+
+#smogon, #tumblr:hover {
+	color: #ADD8E6
+}
+
+#skype, #discord:hover {
+	color: inherit;
 }
 
 p {
