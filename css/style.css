@@ -19,17 +19,19 @@ h6 {
 	line-height: 150px;
 	margin: 10px;
 	border-radius: 100%;
-	font-weight: bold;
 }
 
 #smogon {
-	color: #4C4CFF;
 	background-color: #6363B0;
 }
 
 #tumblr {
-	color: #4C4CFF;
 	background-color: #36465D;
+}
+
+#smogon, #tumblr {
+	color: #4C4CFF;
+	font-size: 11px;
 }
 
 #skype { 
