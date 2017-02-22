@@ -102,3 +102,15 @@ h6 {
 p {
 	color: #FF75CE;	
 }
+
+#footer {
+	display: block;
+	background: linear-gradient(to right, #6300ef, #a700ef);
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -50%;
+}
