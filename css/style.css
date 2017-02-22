@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-	display: inline-block;
+	margin: 0 auto;
 	background-color: #EFEFEF;
 	border: 2px solid black;
 	height: 150px;
@@ -22,7 +22,6 @@ h1 {
 }
 
 h6 {
-	display: inline-block;
 	border: 2px solid black;
 	height: 150px;
 	width: 150px;
@@ -32,21 +31,27 @@ h6 {
 }
 
 #smogon {
-	background-color: #6363B0;
+	/*background-color: #6363B0;
+	background-image: url('../images/zracknel-beta.png');
+	background-size: 80%;
+	background-position: center 15px;
+	background-repeat: no-repeat;*/
+	background: #6363B0 url('../images/zracknel-beta.png') no-repeat center 20px;
+	background-size: 70%;
 	-webkit-transition: background 0.5s, color 0.5s;
 }
 
 #tumblr {
-	background-color: #36465D;
+	background: #36465D url('../images/tumblr-icon.png') no-repeat center center;
+	background-size: 70%;
 	-webkit-transition: background 0.5s, color 0.5s;
 }
 
 #smogon, #tumblr {
-	color: #8C8CFF;
 	font-size: 15px;
 }
 
-#skype { 
+#skype {
 	background-color: #00B0F4;
 }
 
@@ -68,6 +73,10 @@ h6 {
 
 #skype:hover, #discord:hover {
 	color: inherit;
+}
+
+.links h6 {
+	display: inline-block;
 }
 
 p {
