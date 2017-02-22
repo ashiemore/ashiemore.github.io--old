@@ -55,8 +55,8 @@ h6 {
 	text-shadow: 
 	-1px -1px 0 black,
 	1px -1px 0 black,
-  -1px 1px 0 black,
-  1px 1px 0 black;
+	-1px 1px 0 black,
+	1px 1px 0 black;
 }
 
 #skype {
@@ -65,7 +65,7 @@ h6 {
 	url('../images/skype-icon.png') 
 	no-repeat 
 	center center;
-	background-size: 70%;
+	background-size: 65%;
 }
 
 #discord {
