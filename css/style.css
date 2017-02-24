@@ -31,7 +31,8 @@ h6 {
 }
 
 #smogon {
-	background: #6363B0 
+	background: 
+	#6363B0 
 	url('../images/zracknel-beta.png') 
 	no-repeat 
 	center 20px;
@@ -49,7 +50,16 @@ h6 {
 	/*-webkit-transition: background 0.5s, color 0.5s;*/
 }
 
-#smogon, #tumblr {
+#github {
+	background: 
+	white
+	url('../images/github-logo.png')
+	no-repeat
+	center center;
+	background-size: 85%;
+}
+
+#smogon, #tumblr, #github {
 	font-size: 15px;
 	color: white;
 	text-shadow: 
@@ -77,7 +87,7 @@ h6 {
 	background-size: 70%;
 }
 
-#smogon:hover, #tumblr:hover {
+#smogon:hover, #tumblr:hover, #github:hover {
 	color: #ADD8E6;
 	-webkit-filter: brightness(125%);
 }
@@ -113,4 +123,38 @@ p {
 	left: 50%;
 	bottom: 0px;
 	margin-left: -50%;
+}
+
+form {
+	display: inline;
+}
+
+button {
+	display: inline;
+}
+
+#output {
+	display: inline;
+	color: purple;
+}
+
+.block-level {
+	display: block;
+	color: #FF75CE;
+}
+
+.string-reverser {
+	margin: 0 auto;
+	background-color: #EFEFEF;
+	border: 2px solid black;
+	height: 100px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+.centered-text {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100px;
+	width: 300px;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to my page!</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="string-reverser">
+ 			<div class="centered-text">
+	 			<form id="reverser-form">
+	 				<input type="text" name="fname" value="">
+	 			</form>
+
+	 			<button onclick="reverseString()">Reverse!</button>
+
+	 			<div class="block-level">Reversed text: <div id="output"></div></div>
+ 			</div>
+ 		</div>
+ 		<script>
+		function reverseString() {
+			var x = document.getElementById("reverser-form");
+			var text = x.elements[0].value;
+			var arrayText = text.split("");
+			var reversedArrayText = arrayText.reverse();
+			var reversedText = reversedArrayText.join("");
+			document.getElementById("output").innerHTML = reversedText;
+		}
+		</script>
+	</body>
+</html>
