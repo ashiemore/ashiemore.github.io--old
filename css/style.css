@@ -92,7 +92,7 @@ h6 {
 	#FCAEC4;
 }
 
-#smogon:hover, #tumblr:hover, #github:hover {
+#smogon:hover, #tumblr:hover, #github:hover, #skype:hover, #discord:hover, #phone:hover {
 	color: #ADD8E6;
 	-webkit-filter: brightness(125%);
 }
@@ -104,10 +104,6 @@ h6 {
 	1px -1px 0 black,
   	-1px 1px 0 black,
   	1px 1px 0 black;
-}
-
-#skype:hover, #discord:hover {
-	-webkit-filter: brightness(125%);
 }
 
 .links h6 {
