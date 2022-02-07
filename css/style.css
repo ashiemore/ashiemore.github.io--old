@@ -87,18 +87,23 @@ h6 {
 	background-size: 70%;
 }
 
+#phone {
+	background: 
+	#FCAEC4;
+}
+
 #smogon:hover, #tumblr:hover, #github:hover {
 	color: #ADD8E6;
 	-webkit-filter: brightness(125%);
 }
 
-#skype, #discord {
+#skype, #discord, #phone {
 	color: white;
 	text-shadow: 
 	-1px -1px 0 black,
 	1px -1px 0 black,
-  -1px 1px 0 black,
-  1px 1px 0 black;
+  	-1px 1px 0 black,
+  	1px 1px 0 black;
 }
 
 #skype:hover, #discord:hover {
