@@ -4,114 +4,109 @@ html {
 
 body {
 	font-family: Lato, sans-serif;
-	background: url("../images/wave-background.jpg") no-repeat fixed center;
-	background-size: cover;
+	background: url("../images/tumblr_galaxy_background.jpeg") center/cover no-repeat fixed;
 }
 
 .main {
-	margin: 0 auto;
-	background-color: #EFEFEF;
+	margin: 10px auto;
+	background-color: #fff4f7;
 	border: 2px solid black;
 	height: 150px;
 	width: 500px;
-	border-radius: 5px;
+	border-radius: 20px;
+}
+
+p {
+	color: #ff75ce;	
+}
+
+a {
+	text-decoration: none;
 }
 	
 h1 {
 	color: purple;
 }
 
-h6 {
+.links {
+	margin: 5px;
+	padding: 5px;
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.links h6 {
+	color: white;
+	font-size: larger;
+	/* -webkit-text-stroke: .01em black; */
+	text-align: left;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 1px black, 1px 1px 1px black;
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
 	border: 2px solid black;
-	height: 150px;
-	width: 150px;
-	line-height: 150px;
-	margin: 10px;
-	border-radius: 100%;
+	height: 40px;
+	width: 27vw;
+	line-height: 40px;
+	margin: 0px;
+	padding: 5px 55px;
+	border-radius: 20px;
+	/* vertical-align: middle; */
 }
 
 #smogon {
-	background: 
-	#6363B0 
-	url('../images/zracknel-beta.png') 
-	no-repeat 
-	center 20px;
-	background-size: 70%;
+	background-color: #6363b0;
+	background-image: url('../images/zracknel-beta.png');
 	/*-webkit-transition: background 0.5s, color 0.5s;*/
 }
 
 #tumblr {
-	background: 
-	#36465D 
-	url('../images/tumblr-icon.png') 
-	no-repeat 
-	center center;
-	background-size: 70%;
-	/*-webkit-transition: background 0.5s, color 0.5s;*/
+	background-color: #36465d;
+	background-image: url('../images/tumblr-icon.png');
 }
 
 #github {
-	background: 
-	white
-	url('../images/github-logo.png')
-	no-repeat
-	center center;
-	background-size: 85%;
+	background-color: white;
+	background-image: url('../images/github-logo.png');
 }
 
-#smogon, #tumblr, #github {
+/* #smogon, #tumblr, #github {
 	font-size: 15px;
 	color: white;
-	text-shadow: 
-	-1px -1px 0 black,
-	1px -1px 0 black,
-	-1px 1px 0 black,
-	1px 1px 0 black;
-}
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+} */
 
 #skype {
-	background: 
-	white 
-	url('../images/skype-icon.png') 
-	no-repeat 
-	center center;
-	background-size: 65%;
+	background-color: white;
+	background-image: url('../images/skype-icon.png');
 }
 
 #discord {
-	background: 
-	#7289DA 
-	url('../images/discord-icon2.png') 
-	no-repeat 
-	center center;
-	background-size: 70%;
+	background-color:#7289da;
+	background-image: url('../images/discord-icon2.png');
 }
 
 #phone {
-	background: 
-	#FCAEC4;
+	/* background: #fcaec4 url('../images/phone-white.png') 2em/95% center  */
+	background-color:#fcaec4;
+	background-image: url('../images/phone-white.png');
+	background-size: 1.5em;
+	background-position: 1.8% center;
 }
 
-#smogon:hover, #tumblr:hover, #github:hover, #skype:hover, #discord:hover, #phone:hover {
+#email {
+	background-color:#aee2fc;
+	background-image: url('../images/email-white.png');
+	background-size: 1.8em;
+	background-position: 1.8% center;
+}
+
+#discord:hover, #email:hover, #github:hover, #phone:hover, #skype:hover, #smogon:hover, #tumblr:hover {
 	color: #ADD8E6;
-	-webkit-filter: brightness(125%);
-}
-
-#skype, #discord, #phone {
-	color: white;
-	text-shadow: 
-	-1px -1px 0 black,
-	1px -1px 0 black,
-  	-1px 1px 0 black,
-  	1px 1px 0 black;
-}
-
-.links h6 {
-	display: inline-block;
-}
-
-p {
-	color: #FF75CE;	
+	filter: brightness(125%);
+	/* transition: background 0.5s, color 0.5s; */
 }
 
 #footer {
@@ -120,7 +115,7 @@ p {
 	height: 30px;
 	line-height: 30px;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	bottom: 0px;
 	margin-left: -50%;
@@ -141,12 +136,12 @@ button {
 
 .block-level {
 	display: block;
-	color: #FF75CE;
+	color: #ff75ce;
 }
 
 .string-reverser {
 	margin: 0 auto;
-	background-color: #EFEFEF;
+	background-color: #efefef;
 	border: 2px solid black;
 	height: 100px;
 	width: 300px;
