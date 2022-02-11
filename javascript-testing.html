@@ -6,26 +6,35 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="string-reverser">
- 			<div class="centered-text">
-	 			<form id="reverser-form">
-	 				<input type="text" name="fname" value="">
-	 			</form>
-
-	 			<button onclick="reverseString()">Reverse!</button>
-
-	 			<div class="block-level">Reversed text: <div id="output"></div></div>
- 			</div>
- 		</div>
+		<div class="hbox" id="hbox-upper">
+			<h1>ashiemore.github.io</h1>
+			<p>this page has been moved to <a href='https://ashiemore.github.io/index.html'>index.html</a></p>
+		</div>
+		<!-- <div class ="date-time-box">
+			<p id="current-date-weekday"></p>
+			<h1 id="current-date-date"></h1>
+		</div>
+		<div class="js-io-box">
+			<form id="js-io-form">
+				<input type="text" name="fname" value="">
+				<input type="button" onclick="reverseString()" value="Reverse!">
+			</form>
+			<span>Reversed text: <span id="js-io-output"></span></span>
+		</div>
  		<script>
-		function reverseString() {
-			var x = document.getElementById("reverser-form");
-			var text = x.elements[0].value;
-			var arrayText = text.split("");
-			var reversedArrayText = arrayText.reverse();
-			var reversedText = reversedArrayText.join("");
-			document.getElementById("output").innerHTML = reversedText;
-		}
-		</script>
+			function isoDate() {
+				var m=c.getMonth()+1,d=c.getDate();
+				var a=[c.getFullYear().toString(),(m>9?m:'0'+m),(d>9?d:'0'+d)];
+				return a.join("-");
+			}
+			function reverseString() {
+				var x = document.getElementById("js-io-form");
+				document.getElementById("js-io-output").innerHTML = x.elements[0].value.split("").reverse().join("");
+			}
+			var c=new Date();
+			var daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+			document.getElementById("current-date-date").innerHTML = isoDate();
+			document.getElementById("current-date-weekday").innerHTML = daysOfWeek[c.getDay()];
+		</script> -->
 	</body>
 </html>

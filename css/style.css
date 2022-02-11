@@ -1,14 +1,101 @@
-html {
-	text-align: center;
-}
-
 body {
 	font-family: Lato, sans-serif;
 	background: url("../images/tumblr_galaxy_background.jpeg") center/cover no-repeat fixed;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
 }
 
 .main {
+	flex: 7 7;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	height: 95vh;
+}
+
+.hbox {
+	margin: 2px 9px 15px 7px;
+	padding: 2%;
+	border: 2px solid black;
+	border-radius: 30px;
+	text-align: center;
+}
+
+.hbox p {
+	color: #ff75ce;	
+}
+
+#hbox-upper {
+	flex-grow: 2;
+	background: #daf5ff;
+}
+
+#hbox-lower {
+	flex-grow: 4;
+	background: #bdc9ff;
+}
+
+#hbox-js-io {
+	flex-grow: 1;
+	background: #a6b6ff;
+}
+
+.sidebar {
+	height: 95vh;
+	display: flex;
+	flex: 3 3;
+	flex-flow: column nowrap;
+}
+
+.sidebar p {
+	text-align: center;
+}
+
+.sidebar-box {
+	margin: 2px 2px 15px 7px;
+	padding: 2%;
+	border: 2px solid black;
+	border-radius: 30px;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
+	align-items: center;
+}
+
+#sidebar-box-upper {
+	flex-grow: 3;
+	background: #ffd6e2;
+}
+
+#sidebar-box-lower {
+	flex-grow: 1;
+	background: #e9c1fa;
+	justify-content: center;
+}
+
+.footer {
+	display: block;
+	background: #d97fff;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	margin-left: -50%;
+	text-align: left;
+}
+
+.date-time-box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
 	margin: 10px auto;
+	padding: 10px;
 	background-color: #fff4f7;
 	border: 2px solid black;
 	height: 150px;
@@ -16,8 +103,32 @@ body {
 	border-radius: 20px;
 }
 
-p {
-	color: #ff75ce;	
+form {
+	display: inline;
+}
+
+button {
+	display: inline;
+}
+
+#js-io-output {
+	display: inline;
+	color: purple;
+}
+
+.js-io-box {
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	justify-items: space-between;
+	align-items: center;
+	margin: 0 auto;
+	background-color: #efefef;
+	border: 2px solid black;
+	height: 100px;
+	width: 300px;
+	border-radius: 5px;
+	text-align: center;
 }
 
 a {
@@ -25,35 +136,35 @@ a {
 }
 	
 h1 {
-	color: purple;
+	color: rgb(45, 0, 128);
 }
 
 .links {
 	margin: 5px;
 	padding: 5px;
-	display: inline-flex;
+	display: flex;
 	flex-flow: column wrap;
-	justify-content: center;
-	align-items: center;
+	justify-items: center;
+	align-items: stretch;
+}
+
+.sidebar-box-upper p {
+	text-align: center;
+	margin: 10px;
 }
 
 .links h6 {
 	color: white;
 	font-size: larger;
-	/* -webkit-text-stroke: .01em black; */
 	text-align: left;
 	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 1px black, 1px 1px 1px black;
 	background-position: left center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	border: 2px solid black;
-	height: 40px;
-	width: 27vw;
-	line-height: 40px;
 	margin: 0px;
-	padding: 5px 55px;
+	padding: 5px 10px 5px 50px;
 	border-radius: 20px;
-	/* vertical-align: middle; */
 }
 
 #smogon {
@@ -109,43 +220,9 @@ h1 {
 	/* transition: background 0.5s, color 0.5s; */
 }
 
-#footer {
-	display: block;
-	background: linear-gradient(to right, #6300ef, #a700ef);
-	height: 30px;
-	line-height: 30px;
-	width: 100%;
-	position: fixed;
-	left: 50%;
-	bottom: 0px;
-	margin-left: -50%;
-}
-
-form {
-	display: inline;
-}
-
-button {
-	display: inline;
-}
-
-#output {
-	display: inline;
-	color: purple;
-}
-
 .block-level {
 	display: block;
 	color: #ff75ce;
-}
-
-.string-reverser {
-	margin: 0 auto;
-	background-color: #efefef;
-	border: 2px solid black;
-	height: 100px;
-	width: 300px;
-	border-radius: 5px;
 }
 
 .centered-text {

@@ -6,24 +6,60 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		
-		<div class="main">
-			<h1>ashiemore.github.io</h1>
-			<p>hi! not sure how you ended up here, but i'm sophie. nice to meet you!</p>
-			<p>here are some places you can find me:</p>
+		<div class = "main">
+			<div class="hbox" id="hbox-upper">
+				<h1>ashiemore.github.io</h1>
+			</div>
+
+			<div class="hbox" id="hbox-lower">
+				<h4>this is still under construction and i'm still bad at css! sorry.
+				</h4>
+			</div>
+
+			<div class="hbox" id="hbox-js-io">
+				<form id="js-io-form">
+					<input type="text" name="fname" value="">
+					<input type="button" onclick="reverseString()" value="Reverse!">
+				</form>
+				<br>Reversed text: <span id="js-io-output"></span>
+			</div>
 		</div>
 
-		<div class="links">
-			<h6 id="discord">discord (lilinastar#6123)</h6><br>
-			<a href='sms:+17179827799'><h6 id="phone">phone (+1&nbsp;717&nbsp;982&nbsp;7799)</h6></a><br>
-			<a href='to:sophief641@gmail.com'><h6 id="email">email (sophief641@gmail.com)</h6></a><br>
-			<a href='http://www.smogon.com/forums/members/ashiemore.211671/' target=_blank><h6 id="smogon">smogon</h6></a><br>
-			<a href='https://lonelypinkstar.tumblr.com/' target=_blank><h6 id="tumblr">tumblr</h6></a><br>
-			<a href='https://github.com/ashiemore' target=_blank><h6 id="github">github</h6></a>
- 		</div>
-		
-		<div id="footer">›
-			<a href="javascript-testing.html">test link!</a>
+		<div class="sidebar">
+			<div class="sidebar-box" id="sidebar-box-upper">
+				<p>hi! not sure how you ended up here, but i'm sophie. nice to meet you!</p>
+
+				<div class="links">
+					<h6 id="discord">discord (lilinastar#6123)</h6><br>
+					<a href='sms:+17179827799'><h6 id="phone">phone (+1&nbsp;717&nbsp;982&nbsp;7799)</h6></a><br>
+					<a href='to:sophief641@gmail.com'><h6 id="email">email (sophief641@gmail.com)</h6></a><br>
+					<a href='http://www.smogon.com/forums/members/ashiemore.211671/' target=_blank><h6 id="smogon">smogon</h6></a><br>
+					<a href='https://lonelypinkstar.tumblr.com/' target=_blank><h6 id="tumblr">tumblr</h6></a><br>
+					<a href='https://github.com/ashiemore' target=_blank><h6 id="github">github</h6></a>
+				</div>
+			</div>
+
+			<div class="sidebar-box" id="sidebar-box-lower">
+				<div id="current-date-weekday"></div>
+				<h2 id="current-date-date"></h2>
+			</div>
 		</div>
+
+		<script>
+			function isoDate() {
+				var m=c.getMonth()+1,d=c.getDate();
+				var a=[c.getFullYear().toString(),(m>9?m:'0'+m),(d>9?d:'0'+d)];
+				return a.join("-");
+			}
+			function reverseString() {
+				var x = document.getElementById("js-io-form");
+				document.getElementById("js-io-output").innerHTML = x.elements[0].value.split("").reverse().join("");
+			}
+			var c=new Date();
+			var daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+			document.getElementById("current-date-date").innerHTML = isoDate();
+			document.getElementById("current-date-weekday").innerHTML = daysOfWeek[c.getDay()];
+			
+		</script>
 	</body>
 </html>
